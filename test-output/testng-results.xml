@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21861" started-at="2022-12-06T22:47:03 IST" finished-at="2022-12-06T22:47:25 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21861" started-at="2022-12-06T22:47:03 IST" finished-at="2022-12-06T22:47:25 IST">
+      <class name="co.nopc.Login.LoginValiadation">
+        <test-method status="PASS" signature="BrowserOpening()[pri:0, instance:co.nopc.Login.LoginValiadation@4524411f]" name="BrowserOpening" is-config="true" duration-ms="7093" started-at="2022-12-06T22:47:03 IST" finished-at="2022-12-06T22:47:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpening -->
+        <test-method status="PASS" signature="checkboxveriefy()[pri:1, instance:co.nopc.Login.LoginValiadation@4524411f]" name="checkboxveriefy" duration-ms="1378" started-at="2022-12-06T22:47:10 IST" finished-at="2022-12-06T22:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxveriefy -->
+        <test-method status="PASS" signature="titleveriefy()[pri:2, instance:co.nopc.Login.LoginValiadation@4524411f]" name="titleveriefy" duration-ms="63" started-at="2022-12-06T22:47:12 IST" finished-at="2022-12-06T22:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleveriefy -->
+        <test-method status="PASS" signature="loginveriefy()[pri:3, instance:co.nopc.Login.LoginValiadation@4524411f]" name="loginveriefy" duration-ms="12555" started-at="2022-12-06T22:47:12 IST" finished-at="2022-12-06T22:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginveriefy -->
+        <test-method status="PASS" signature="logoveriefy()[pri:0, instance:co.nopc.Login.LoginValiadation@4524411f]" name="logoveriefy" duration-ms="438" started-at="2022-12-06T22:47:24 IST" depends-on-methods="co.nopc.Login.LoginValiadation.loginveriefy" finished-at="2022-12-06T22:47:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoveriefy -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:co.nopc.Login.LoginValiadation@4524411f]" name="BrowserClose" is-config="true" duration-ms="259" started-at="2022-12-06T22:47:25 IST" finished-at="2022-12-06T22:47:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- co.nopc.Login.LoginValiadation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
