@@ -20,10 +20,11 @@ public class BaseClass
 		 String value = (System.getProperty("user.dir")+ "\\Software-1\\chromedriver_win32 (1)\\chromedriver.exe");
 //String URL = "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F";
 		 System.setProperty(key,value);
+		 
 		  driver=new ChromeDriver();
 		//driver.get(URL);
 		  //upcasting
-		  driver.manage().window().maximize();
+		  driver.manage().window().maximize();;
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));//SYNCHRONISATION:Adding wait in programm
 	
 	 	   // get url:
