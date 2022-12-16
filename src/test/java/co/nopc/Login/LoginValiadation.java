@@ -26,11 +26,13 @@ public class LoginValiadation extends BaseClass{
 	public  void BrowserOpening() throws InterruptedException, EncryptedDocumentException, IOException
 	{	
 		BrowserLaunch();  
-	     
+	    
+		
 		lp=new LoginWebPage(driver);
 	     d=new DashBoard(driver);
 	}
 	  
+	
 		  // create obj of pom class:
 	@Test(priority=2)
      public void titleveriefy() throws EncryptedDocumentException, IOException
